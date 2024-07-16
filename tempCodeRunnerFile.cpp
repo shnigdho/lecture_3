@@ -1,17 +1,7 @@
-#include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int n;
-//     cin>>n;
-//     int i = 1;
-//     while(i<=n){
-//         int j = 1;
-//         while(j<=n){
-//             cout << " * ";
-//             j = j + 1;
-//     }
-//     cout << endl;
-//     i = i + 1;
-//     }
-// }
+for(size_t i = 0; i<=5;i++)
+{
+    for(size_t j = 0;j<= i;j++){
+        cout<<"* ";
+    }
+    cout<<endl;
+}
